@@ -1,58 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dry aged steakhouse in Southampton" />
+    <meta name="keywords" content="steak, restaurant, Southampton" />
 
-<head>
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dry aged steakhouse in Southampton">
-    <meta name="keywords" content="steak, restaurant, Southampton">
+    <!-- ICON LIBRARY -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <title>Porters Steakhouse</title>
+  </head>
 
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+  <body>
+    <div id="wrapper">
+      <div id="content">
+        <ul id="ul-menu">
+          <li class="li-menu"><a class="a-menu" href="index.html">Home</a></li>
+          <li class="li-menu">
+            <a
+              class="a-menu"
+              href="https://www.porterssteakhouse.co.uk/_files/ugd/9b6052_b8b6f31095044060a715f1598d2eb5dc.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Menu</a
+            >
+          </li>
+          <li class="li-menu"><a class="a-menu" href="video.html">Video</a></li>
+          <li class="li-menu">
+            <a class="a-menu" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
 
-<body>
-    <header>
-        <a href="index.html">
-            <h1>Porters Steakhouse</h1>
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Menu</a>
-                </li>
-                <li>
-                    <a href="#">Gallery</a>
-                </li>
-                <li>
-                    <a href="#">Gallery</a>
-                </li>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        Hero Image
-    </section>
-    <section>
-        Menu
-    </section>
-    <section>
-        Photos
-    </section>
-    <section>
-        Contact Us
-    </section>
-    <footer>
-        Social and address links
-    </footer>
-</body>
-
+        <div>
+          <div id="hero-image-small"></div>
+          <div id="hero-image"></div>
+        </div>
+        <!-- ABOUT SECTION -->
+        <div class="subsection">
+          <div id="about-image"></div>
+          <div class="maincontent leftaligncontent">
+            <div class="textbox whitetext leftalignboxfull">
+              <h2>Our Story</h2>
+              <h3>Welcome to Porters Steakhouse.</h3>
+              <p>
+                At Porters we pride ourselves on being a cut above the rest in
+                everything we do. From the moment you arrive, our friendly and
+                knowledgeable team are on hand to greet you and walk you through
+                our unique menu.
+              </p>
+              <p>
+                Our menu showcases the very best of grass fed beef sourced from
+                British farms and dry aged to perfection, ensuring the most
+                tender of cuts. All our meat is fully traceable and of the
+                highest quality and flavour giving the meat a unique appearance
+                before and after cooking.
+              </p>
+              <p>
+                Once you have made your selection from our standard menu or
+                chophouse board, it is then freshly cooked on the premises on
+                our BBQ grill. Please be aware that to ensure the best dining
+                experience, some cuts will take longer to serve at the table due
+                to their need for a longer cook time.
+              </p>
+              <p>
+                This is your opportunity to sit back, relax, enjoy the company
+                and sample one of our bespoke cocktails. Dining out has become a
+                lost art. At porters we encourage you to sit back, take your
+                time and savour this moment. From farm to table, kitchen to
+                fork, this is an experience not to be rushed.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- OPENTABLE APP -->
+        <div class="bookerapp">
+          <div id="appoverridec">
+            <script src="//www.opentable.co.uk/widget/reservation/loader?rid=108955&type=standard&theme=wide&color=1&dark=true&iframe=false&domain=couk&lang=en-GB&newtab=false&ot_source=Restaurant%20website"></script>
+          </div>
+          <div id="appoverridecB">
+            <script src="//www.opentable.co.uk/widget/reservation/loader?rid=108955&type=button&theme=standard&color=1&dark=true&iframe=true&domain=couk&lang=en-GB&newtab=false&ot_source=Restaurant%20website"></script>
+          </div>
+        </div>
+        <!-- GALLERY -->
+        <div class="gallery" id="gallery-section">
+          <img
+            src="../assets/images/cocktail-smoke.webp"
+            alt="a cocktail with smoke"
+          />
+          <img
+            src="../assets//images/outside.webp"
+            alt="a view of Porters Steakhouse outside"
+          />
+          <img 
+            src="../assets//images/steak-sofa.webp" 
+            alt="a t-bone steak" />
+          <img
+            src="../assets//images/wine-display.webp"
+            alt="a waiter showing a bottle of wine"
+          />
+          <img
+            src="../assets//images/meatballs.webp"
+            alt="meatballs on a plate"
+          />
+        </div>
+      </div>
+      <!-- FOOTER -->
+      <footer class="footer-wrapper whitetext">
+        <div class="footer">
+          <div class="footer-details">
+            <div class="footer-logo">
+              <img src="/assets/images/logo.png" alt="porterslogo" />
+            </div>
+            <div class="footer-address">
+              Porters Steakhouse, 20 - 22 Queens Terrace, Southampton, SO14 3BQ
+            </div>
+            <div class="footer-number">02380 390694</div>
+            <div class="footer-email">info@porterssteakhouse.co.uk</div>
+          </div>
+          <!-- SOCIAL LINKS -->
+            <div class="sociallinks">
+              <div class="icon-bar">
+                <a href="https://www.facebook.com/porters.steakhouse.southampton/" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/porters.steakhouse/?hl=en" class="fa fa-instagram"></a>
+              </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
