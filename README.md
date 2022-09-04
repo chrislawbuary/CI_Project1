@@ -2,7 +2,7 @@
 ![Multiple Device Demo](assets/docs/multidisplay-clear.png "Multiple Device Demo")
 
 ## Live Site
-Porters Steakhouse - [###](###)
+Porters Steakhouse - [https://chrislawbuary.github.io/CI_Project1/index.html](https://chrislawbuary.github.io/CI_Project1/index.html)
 
 ## Repository
 [https://github.com/chrislawbuary/CI_Project1](https://github.com/chrislawbuary/CI_Project1)
