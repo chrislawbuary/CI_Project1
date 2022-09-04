@@ -16,24 +16,21 @@ The website is designed to be responsive between different devices and the use o
 ***
 ## Design
 
-### Wireframes
-
-...
-
 ### Colour Scheme
 A simple dark colour scheme has been used.\
-Looking at the overall design of the resaurant interior I felt a dark colour scheme would work best.\
-Using these colours it draws the users attention to the large images and focus on the food.
+Looking at the overall design of the restaurant interior I felt a dark colour scheme would work best.\
+Using these colours, it draws the user’s attention to the large images and focus on the food.
 
 ### Typography
 ![Typography](assets\docs\typography-clear.png "Typography")\
 I have used two fonts for this website, Amiri and Montserrat.\
-I chose Amiri as I felt it worked best with the restaurants exisiting logo.\
-And Monsterrat is a very easy to read and clean looking font which I thought suited this website.
+I chose Amiri as I felt it worked best with the restaurants existing logo.\
+And Montserrat is a very easy to read and clean looking font which I thought suited this website.
 
 ### Imagery
-The main focus of this website it too show of the food and feel of the restaurant.\
-Large scale images were used to catch the users eye immediatly and keep their attention.
+The main focus of this website it too shows of the food and feel of the restaurant.\
+Large scale images were used to catch the user’s eye immediately and keep their attention.
+
 
 ***
 ## Features
@@ -51,11 +48,11 @@ Large scale images were used to catch the users eye immediatly and keep their at
 #### Nav Bar / Menu
 ![Booking](assets/docs/booking.JPG)
 - I have added a booking widget from OpenTable [https://www.opentable.co.uk/widget/reservation/preview]
-- This ensures when a user visits the site, they have a quick and convienent way to book a table
+- This ensures when a user visits the site, they have a quick and convenient way to book a table
 
 #### Gallery
 ![Gallery](assets/docs/gallery.gif)
-- I initially planned for a seperate gallery page but when I came across this page [https://css-tricks.com/zooming-images-in-a-grid-layout/] I followed the steps to create my own move over zooming gallery.
+- I initially planned for a separate gallery page but when I came across this page [https://css-tricks.com/zooming-images-in-a-grid-layout/] I followed the steps to create my own move over zooming gallery.
 - This design taught me how to use custom variables within my CSS.
 
 #### Video and Controls
@@ -68,6 +65,16 @@ Large scale images were used to catch the users eye immediatly and keep their at
 ### Languages Used
 - [HTML](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+***
+## Development Issues
+
+When I started to create this website I was initially using GitPod, I came across an issue with the http.server command in the terminal and could not get my live preview to work. After trying to fix this, I could not resolve the issue so moved my development onto Visual Studio Code (windows application). From here I was able to use the extension "Live Server".
+
+As I was now using Visual Studio Code for my development process I wanted to still use GitHub for my commits and push updates.
+There is a GitHub extension within Visual Studio Code and I found with an SSH key setup I could use this program the same way as GitPod.
+
+I was using Visual Studio Code for all of my development but when I came back to check my GitHub for updates they had not committed. This was a mistake on my part as I did not check this until afterwards, I was only going off the terminal in Visual Studio Code.
 
 ***
 ## Testing
