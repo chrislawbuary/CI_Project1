@@ -79,7 +79,13 @@ I was using Visual Studio Code for all of my development but when I came back to
 ***
 ## Testing
 
-...
+For the testing process I ran all my HTML pages through the [Validator](https://validator.w3.org/), they all passed with no errors.\
+![Passed](assets/docs/complete.JPG)\
+![HTML](assets/docs/w3c-html.webp)
+
+I then moved onto the [Jigsaw](https://jigsaw.w3.org/css-validator/) validator for CSS, and again this passed with no errors.\
+![Congratulations](assets/docs/congrats.JPG)\
+![CSS](assets/docs/w3c-css.gif)
 
 ***
 ## Bugs
