@@ -22,7 +22,7 @@ Looking at the overall design of the restaurant interior I felt a dark colour sc
 Using these colours, it draws the user’s attention to the large images and focus on the food.
 
 ### Typography
-![Typography](assets\docs\typography-clear.png "Typography")\
+![Typography](assets/docs/typography-clear.png "Typography")\
 I have used two fonts for this website, Amiri and Montserrat.\
 I chose Amiri as I felt it worked best with the restaurants existing logo.\
 And Montserrat is a very easy to read and clean looking font which I thought suited this website.
@@ -56,7 +56,7 @@ Large scale images were used to catch the user’s eye immediately and keep thei
 - This design taught me how to use custom variables within my CSS.
 
 #### Video and Controls
-![Video Controls](assets/docs/video-controls.png)\
+![Video Controls](assets/docs/video-controls.png)
 - I have created a video page with interactive controls for the user.
 
 ***
