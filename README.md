@@ -26,7 +26,7 @@ Looking at the overall design of the resaurant interior I felt a dark colour sch
 Using these colours it draws the users attention to the large images and focus on the food.
 
 ### Typography
-![Typography](assets\docs\tyopography-clear.png "Typography")\
+![Typography](assets\docs\typography-clear.png "Typography")\
 I have used two fonts for this website, Amiri and Montserrat.\
 I chose Amiri as I felt it worked best with the restaurants exisiting logo.\
 And Monsterrat is a very easy to read and clean looking font which I thought suited this website.
